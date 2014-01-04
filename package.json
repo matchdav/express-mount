@@ -1,0 +1,32 @@
+{
+  "name": "express-mount",
+  "version": "0.0.0",
+  "description": "A command line tool to generate a mounted subapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matchdav/express-mount"
+  },
+  "keywords": [
+    "express",
+    "mount",
+    "subapp"
+  ],
+  "author": "Matthew Davidson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matchdav/express-mount/issues"
+  },
+  "bin": {
+    "express-mount": "bin/express.mount.js"
+  },
+  "homepage": "https://github.com/matchdav/express-mount",
+  "dependencies": {
+    "commander": "~2.1.0",
+    "mkdirp": "~0.3.5",
+    "string": "~1.7.0"
+  }
+}
