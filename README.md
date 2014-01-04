@@ -2,7 +2,7 @@ This is a command line utility for generating mounted Express subapps.
 
 Installation: 
 
-     'npm install -g express-mount'
+    npm install -g express-mount
 
 Example Usage: 
 
