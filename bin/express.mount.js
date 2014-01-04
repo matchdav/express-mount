@@ -32,6 +32,7 @@ var args = program.args;
 
 if( args.length == 0 ) {
 	console.log('No module name specified.  Exiting...');
+  console.log(program.usage());
 	process.exit();
 }
 

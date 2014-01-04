@@ -4,7 +4,21 @@ Installation:
 
     npm install -g express-mount
 
-Example Usage: 
+
+Usage:     express-mount [options] [dir]
+
+    Options:
+
+      -h, --help          output usage information
+      -V, --version       output the version number
+      -e, --ejs           add ejs engine support (defaults to jade)
+      -M, --mongoose      add mongoose model support
+      -J, --jshtml        add jshtml engine support (defaults to jade)
+      -H, --hogan         add hogan.js engine support
+      -c, --css <engine>  add stylesheet <engine> support (less|stylus) (defaults to plain css)
+      -f, --force         force on non-empty directory
+
+Example: 
 
     $ express zoo
 
