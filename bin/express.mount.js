@@ -46,7 +46,7 @@ module.path = path.join(process.cwd(),module.name.toLowerCase());
 var router = [
     ''
   , 'module.exports = function(app){'
-  , '  app.get(\'/\',require(\'home\'))'
+  , '  app.get(\'/\',require(\'./home\'))'
   , '  //add other routes below'
   , '}'
 ].join(eol);
@@ -57,7 +57,7 @@ var home = [
   , ' * GET home page.'
   , ' */'
   , ''
-  , 'exports.index = function(req, res){'
+  , 'module.exports = function(req, res){'
   , '  res.render(\'index\', { title: \'Express::Module::'+module.name+'\' });'
   , '};'
 ].join(eol);
