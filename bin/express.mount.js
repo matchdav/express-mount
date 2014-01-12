@@ -68,7 +68,7 @@ var home = [
  */
 
 var jadeLayout = [
-    'doctype 5'
+    'doctype html'
   , 'html'
   , '  head'
   , '    title= title'
